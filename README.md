@@ -8,3 +8,8 @@ code using a fingerprinting similarity engine.
 
 - Submit a code snippet through a React + CodeMirror editor.
 - FastAPI backend that queries GitHub code search for matches.
+- Local plagiarism engine using tokenization, identifier normalization and
+  winnowing fingerprints to score similarity against stored submissions.
+
+## Project Structure
+
