@@ -2,3 +2,5 @@
 
     Backend:
 
+cd codepatrol/backend/backend
+source venv/bin/activate
