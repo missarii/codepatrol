@@ -33,3 +33,7 @@ Frontend:
 ```
 cd frontend
 npm install
+npm run dev
+```
+
+The frontend dev server proxies `/submit` to the backend on port 8000.
