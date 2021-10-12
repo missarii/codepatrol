@@ -18,3 +18,8 @@ code using a fingerprinting similarity engine.
 - `frontend/` — React + Vite + Tailwind UI for submitting code and viewing
   similarity results.
 
+## Running Locally
+
+Backend:
+
+```
