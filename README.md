@@ -13,3 +13,8 @@ code using a fingerprinting similarity engine.
 
 ## Project Structure
 
+- `backend/` — FastAPI service, SQLAlchemy models, and the `plagiarism_engine`
+  package (tokenizer, normalizer, winnowing, compare).
+- `frontend/` — React + Vite + Tailwind UI for submitting code and viewing
+  similarity results.
+
