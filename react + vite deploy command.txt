@@ -12,3 +12,5 @@ cd codepatrol/frontend
 npm run dev
 
 4️⃣ Access your app in browser
+
+    Frontend: http://localhost:5173
