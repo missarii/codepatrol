@@ -16,3 +16,4 @@ npm run dev
     Frontend: http://localhost:5173
 
     Backend docs: http://localhost:8000/docs
+
