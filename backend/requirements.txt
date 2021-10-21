@@ -4,3 +4,5 @@ click==8.2.1
 fastapi==0.116.1
 greenlet==3.2.3
 h11==0.16.0
+idna==3.10
+psycopg2-binary==2.9.10
