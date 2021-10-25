@@ -6,3 +6,4 @@ from sqlalchemy.orm import sessionmaker
 DATABASE_URL = "postgresql://ahil@localhost:5432/cat"
 
 engine = create_engine(DATABASE_URL, echo=True)
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
