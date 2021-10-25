@@ -4,3 +4,5 @@ from sqlalchemy.orm import sessionmaker
 
 # Use connection string without password (adjust user/db/host/port as needed)
 DATABASE_URL = "postgresql://ahil@localhost:5432/cat"
+
+engine = create_engine(DATABASE_URL, echo=True)
