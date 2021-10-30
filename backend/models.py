@@ -3,3 +3,4 @@ from db import Base
 from datetime import datetime
 
 class CodeSubmission(Base):
+    __tablename__ = "submissions"
