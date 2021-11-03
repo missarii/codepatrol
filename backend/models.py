@@ -7,3 +7,4 @@ class CodeSubmission(Base):
     id = Column(Integer, primary_key=True, index=True)
     username = Column(String)
     code = Column(Text)
+    timestamp = Column(DateTime, default=datetime.utcnow)
