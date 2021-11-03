@@ -4,3 +4,4 @@ from datetime import datetime
 
 class CodeSubmission(Base):
     __tablename__ = "submissions"
+    id = Column(Integer, primary_key=True, index=True)
