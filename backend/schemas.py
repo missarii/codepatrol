@@ -3,3 +3,4 @@ from typing import Optional
 
 class CodeSubmitRequest(BaseModel):
     username: str
+    code: str
