@@ -6,3 +6,4 @@ class CodeSubmitRequest(BaseModel):
     code: str
 
 class CodeResult(BaseModel):
+    score: float
