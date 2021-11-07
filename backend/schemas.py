@@ -5,3 +5,4 @@ class CodeSubmitRequest(BaseModel):
     username: str
     code: str
 
+class CodeResult(BaseModel):
