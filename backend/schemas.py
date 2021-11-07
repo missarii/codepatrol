@@ -7,3 +7,4 @@ class CodeSubmitRequest(BaseModel):
 
 class CodeResult(BaseModel):
     score: float
+    match: Optional[str] = None
