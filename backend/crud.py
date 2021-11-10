@@ -8,3 +8,4 @@ def save_submission(username: str, code: str) -> CodeSubmission:
     db.add(sub)
     db.commit()
     db.refresh(sub)
+    db.close()
