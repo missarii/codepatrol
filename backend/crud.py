@@ -7,3 +7,4 @@ def save_submission(username: str, code: str) -> CodeSubmission:
     sub = CodeSubmission(username=username, code=code)
     db.add(sub)
     db.commit()
+    db.refresh(sub)
