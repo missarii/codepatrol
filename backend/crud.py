@@ -10,3 +10,4 @@ def save_submission(username: str, code: str) -> CodeSubmission:
     db.refresh(sub)
     db.close()
     return sub
+
