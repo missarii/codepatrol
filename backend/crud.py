@@ -11,3 +11,4 @@ def save_submission(username: str, code: str) -> CodeSubmission:
     db.close()
     return sub
 
+def compare_submission(code: str, submission_id: int):
