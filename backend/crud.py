@@ -15,3 +15,4 @@ def compare_submission(code: str, submission_id: int):
     db = SessionLocal()
     submissions = db.query(CodeSubmission).filter(CodeSubmission.id != submission_id).all()
     db.close()
+    return compare_all(code, submissions)
