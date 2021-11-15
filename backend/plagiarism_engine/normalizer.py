@@ -4,3 +4,4 @@ def normalize(tokens):
     normalized = []
     for token in tokens:
         if token.isidentifier() and not token in ["if", "for", "while", "return"]:
+            if token not in var_map:
