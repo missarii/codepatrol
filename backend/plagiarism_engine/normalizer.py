@@ -7,3 +7,4 @@ def normalize(tokens):
             if token not in var_map:
                 var_map[token] = f"var{count}"
                 count += 1
+            normalized.append(var_map[token])
