@@ -9,3 +9,4 @@ def normalize(tokens):
                 count += 1
             normalized.append(var_map[token])
         else:
+            normalized.append(token)
