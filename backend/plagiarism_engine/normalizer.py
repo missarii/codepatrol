@@ -8,3 +8,4 @@ def normalize(tokens):
                 var_map[token] = f"var{count}"
                 count += 1
             normalized.append(var_map[token])
+        else:
