@@ -10,3 +10,4 @@ def normalize(tokens):
             normalized.append(var_map[token])
         else:
             normalized.append(token)
+    return normalized
