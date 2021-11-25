@@ -4,3 +4,4 @@ def get_hashes(tokens, k=5, window=4):
     for i in range(len(hashes) - window + 1):
         window_hashes = hashes[i:i+window]
         fingerprints.add(min(window_hashes))
+    return fingerprints
