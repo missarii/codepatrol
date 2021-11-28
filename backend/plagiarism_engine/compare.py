@@ -7,3 +7,4 @@ def compare_all(new_code: str, others):
     new_hashes = get_hashes(new_tokens)
     best_score = 0
     best_match = None
+    for sub in others:
