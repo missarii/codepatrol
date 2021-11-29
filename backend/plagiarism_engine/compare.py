@@ -12,3 +12,4 @@ def compare_all(new_code: str, others):
         hashes = get_hashes(tokens)
         similarity = len(new_hashes.intersection(hashes)) / max(len(new_hashes), 1)
         if similarity > best_score:
+            best_score = similarity
