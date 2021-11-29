@@ -9,3 +9,4 @@ def compare_all(new_code: str, others):
     best_match = None
     for sub in others:
         tokens = normalize(tokenize(sub.code))
+        hashes = get_hashes(tokens)
