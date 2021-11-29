@@ -10,3 +10,4 @@ def compare_all(new_code: str, others):
     for sub in others:
         tokens = normalize(tokenize(sub.code))
         hashes = get_hashes(tokens)
+        similarity = len(new_hashes.intersection(hashes)) / max(len(new_hashes), 1)
