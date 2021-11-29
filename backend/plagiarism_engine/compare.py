@@ -8,3 +8,4 @@ def compare_all(new_code: str, others):
     best_score = 0
     best_match = None
     for sub in others:
+        tokens = normalize(tokenize(sub.code))
