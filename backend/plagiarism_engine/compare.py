@@ -14,3 +14,4 @@ def compare_all(new_code: str, others):
         if similarity > best_score:
             best_score = similarity
             best_match = sub.username
+    return round(best_score * 100, 2), best_match
