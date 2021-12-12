@@ -10,3 +10,4 @@ load_dotenv()
 app = FastAPI()
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")  # set via environment / .env
 
+@app.post("/submit")
