@@ -12,3 +12,4 @@ GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")  # set via environment / .env
 
 @app.post("/submit")
 async def submit_code(file: UploadFile = File(...)):
+    code = (await file.read()).decode("utf-8")
