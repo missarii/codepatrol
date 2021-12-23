@@ -16,3 +16,4 @@ async def submit_code(file: UploadFile = File(...)):
     snippet = code[:50].strip()
     if not snippet:
         raise HTTPException(status_code=400, detail="Empty code snippet")
+
