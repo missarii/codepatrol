@@ -20,3 +20,4 @@ async def submit_code(file: UploadFile = File(...)):
     headers = {
         "Authorization": f"token {GITHUB_TOKEN}",
         "Accept": "application/vnd.github+json"
+    }
