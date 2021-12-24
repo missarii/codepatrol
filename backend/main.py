@@ -22,3 +22,4 @@ async def submit_code(file: UploadFile = File(...)):
         "Accept": "application/vnd.github+json"
     }
 
+    query = f"{snippet} in:file"
