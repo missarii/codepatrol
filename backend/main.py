@@ -18,3 +18,4 @@ async def submit_code(file: UploadFile = File(...)):
         raise HTTPException(status_code=400, detail="Empty code snippet")
 
     headers = {
+        "Authorization": f"token {GITHUB_TOKEN}",
