@@ -23,3 +23,4 @@ async def submit_code(file: UploadFile = File(...)):
     }
 
     query = f"{snippet} in:file"
+    encoded_query = urllib.parse.quote(query)
