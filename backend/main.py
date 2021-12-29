@@ -27,3 +27,4 @@ async def submit_code(file: UploadFile = File(...)):
     url = f"https://api.github.com/search/code?q={encoded_query}&per_page=5"
 
     try:
+        async with httpx.AsyncClient(timeout=30.0) as client:
