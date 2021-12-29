@@ -24,3 +24,4 @@ async def submit_code(file: UploadFile = File(...)):
 
     query = f"{snippet} in:file"
     encoded_query = urllib.parse.quote(query)
+    url = f"https://api.github.com/search/code?q={encoded_query}&per_page=5"
