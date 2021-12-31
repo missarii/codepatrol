@@ -28,3 +28,4 @@ async def submit_code(file: UploadFile = File(...)):
 
     try:
         async with httpx.AsyncClient(timeout=30.0) as client:
+            resp = await client.get(url, headers=headers)
