@@ -30,3 +30,4 @@ async def submit_code(file: UploadFile = File(...)):
         async with httpx.AsyncClient(timeout=30.0) as client:
             resp = await client.get(url, headers=headers)
     except ReadTimeout:
+        return {"error": "GitHub API request timed out. Please try again later."}
