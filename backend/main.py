@@ -33,3 +33,4 @@ async def submit_code(file: UploadFile = File(...)):
         return {"error": "GitHub API request timed out. Please try again later."}
 
     if resp.status_code != 200:
+        raise HTTPException(status_code=resp.status_code, detail="GitHub API error")
