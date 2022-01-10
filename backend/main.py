@@ -39,3 +39,4 @@ async def submit_code(file: UploadFile = File(...)):
     if not results:
         return {"score": 0, "match": "No matching code found on GitHub"}
 
+    top = results[0]
