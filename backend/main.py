@@ -36,3 +36,4 @@ async def submit_code(file: UploadFile = File(...)):
         raise HTTPException(status_code=resp.status_code, detail="GitHub API error")
 
     results = resp.json().get("items", [])
+    if not results:
