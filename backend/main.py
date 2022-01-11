@@ -40,3 +40,4 @@ async def submit_code(file: UploadFile = File(...)):
         return {"score": 0, "match": "No matching code found on GitHub"}
 
     top = results[0]
+    repo_name = top["repository"]["full_name"]
