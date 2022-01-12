@@ -44,3 +44,4 @@ async def submit_code(file: UploadFile = File(...)):
     file_path = top["path"]
     html_url = top["html_url"]
 
+    similarity_score = 50  # placeholder, or add your own logic
