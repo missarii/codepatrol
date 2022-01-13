@@ -5,3 +5,4 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
+      '/submit': 'http://localhost:8000',
