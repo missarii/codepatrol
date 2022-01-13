@@ -47,3 +47,4 @@ async def submit_code(file: UploadFile = File(...)):
     similarity_score = 50  # placeholder, or add your own logic
 
     return {
+        "score": similarity_score,
