@@ -7,3 +7,4 @@ export default defineConfig({
     proxy: {
       '/submit': 'http://localhost:8000',
     }
+  }
