@@ -8,3 +8,4 @@ export default defineConfig({
       '/submit': 'http://localhost:8000',
     }
   }
+})
