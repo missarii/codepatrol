@@ -10,3 +10,5 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@codemirror/lang-javascript": "^6.2.4",
+    "@uiw/react-codemirror": "^4.24.1",
