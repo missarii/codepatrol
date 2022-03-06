@@ -6,3 +6,4 @@ function App() {
   const [result, setResult] = useState(null);
 
   return (
+    <div className="min-h-screen bg-gray-50">
