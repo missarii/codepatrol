@@ -11,3 +11,4 @@ function App() {
         <ResultPage result={result} onBack={() => setResult(null)} />
       ) : (
         <CodeInput onResult={setResult} />
+      )}
