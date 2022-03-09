@@ -12,3 +12,4 @@ function App() {
       ) : (
         <CodeInput onResult={setResult} />
       )}
+    </div>
