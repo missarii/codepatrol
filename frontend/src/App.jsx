@@ -9,3 +9,4 @@ function App() {
     <div className="min-h-screen bg-gray-50">
       {result ? (
         <ResultPage result={result} onBack={() => setResult(null)} />
+      ) : (
