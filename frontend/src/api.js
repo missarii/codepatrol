@@ -6,3 +6,4 @@ export async function submitCode(username, code) {
   form.append("username", username); // optional, backend ignores it
   const file = new Blob([code], { type: "text/plain" });
   form.append("file", file, "code.txt");
+
