@@ -7,3 +7,4 @@ export async function submitCode(username, code) {
   const file = new Blob([code], { type: "text/plain" });
   form.append("file", file, "code.txt");
 
+  const response = await fetch(`${API_URL}/submit`, {
