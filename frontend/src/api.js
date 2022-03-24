@@ -8,3 +8,4 @@ export async function submitCode(username, code) {
   form.append("file", file, "code.txt");
 
   const response = await fetch(`${API_URL}/submit`, {
+    method: "POST",
