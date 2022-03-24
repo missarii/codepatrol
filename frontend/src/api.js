@@ -9,3 +9,4 @@ export async function submitCode(username, code) {
 
   const response = await fetch(`${API_URL}/submit`, {
     method: "POST",
+    body: form,
