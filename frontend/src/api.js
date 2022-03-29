@@ -12,3 +12,4 @@ export async function submitCode(username, code) {
     body: form,
   });
 
+  if (!response.ok) throw new Error("Submission failed");
