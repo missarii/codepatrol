@@ -13,3 +13,4 @@ export async function submitCode(username, code) {
   });
 
   if (!response.ok) throw new Error("Submission failed");
+  return await response.json();
