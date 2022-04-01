@@ -5,3 +5,4 @@ import { submitCode } from "./api";
 
 export default function CodeInput({ onResult }) {
   const [code, setCode] = useState("// Write your code here");
+  const [username, setUsername] = useState("student1");
