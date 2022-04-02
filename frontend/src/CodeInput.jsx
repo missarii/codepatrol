@@ -8,3 +8,4 @@ export default function CodeInput({ onResult }) {
   const [username, setUsername] = useState("student1");
   const [loading, setLoading] = useState(false);
 
+  const handleSubmit = async () => {
