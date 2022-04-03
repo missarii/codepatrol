@@ -9,3 +9,4 @@ export default function CodeInput({ onResult }) {
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = async () => {
+    try {
