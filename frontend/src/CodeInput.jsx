@@ -11,3 +11,4 @@ export default function CodeInput({ onResult }) {
   const handleSubmit = async () => {
     try {
       setLoading(true);
+      const result = await submitCode(username, code);
