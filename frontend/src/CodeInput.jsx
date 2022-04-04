@@ -13,3 +13,4 @@ export default function CodeInput({ onResult }) {
       setLoading(true);
       const result = await submitCode(username, code);
       onResult(result);
+    } catch (err) {
