@@ -14,3 +14,4 @@ export default function CodeInput({ onResult }) {
       const result = await submitCode(username, code);
       onResult(result);
     } catch (err) {
+      alert("Error: " + err.message);
