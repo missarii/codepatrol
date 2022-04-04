@@ -15,3 +15,4 @@ export default function CodeInput({ onResult }) {
       onResult(result);
     } catch (err) {
       alert("Error: " + err.message);
+    } finally {
