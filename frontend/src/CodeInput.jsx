@@ -17,3 +17,4 @@ export default function CodeInput({ onResult }) {
       alert("Error: " + err.message);
     } finally {
       setLoading(false);
+    }
