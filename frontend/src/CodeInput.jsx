@@ -18,3 +18,4 @@ export default function CodeInput({ onResult }) {
     } finally {
       setLoading(false);
     }
+  };
