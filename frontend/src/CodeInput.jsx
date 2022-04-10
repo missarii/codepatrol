@@ -21,3 +21,4 @@ export default function CodeInput({ onResult }) {
   };
 
   return (
+    <div className="p-6 max-w-3xl mx-auto space-y-4">
