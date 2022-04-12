@@ -28,3 +28,4 @@ export default function CodeInput({ onResult }) {
         placeholder="Your username"
         className="w-full px-4 py-2 border rounded"
         value={username}
+        onChange={(e) => setUsername(e.target.value)}
