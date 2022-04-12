@@ -27,3 +27,4 @@ export default function CodeInput({ onResult }) {
         type="text"
         placeholder="Your username"
         className="w-full px-4 py-2 border rounded"
+        value={username}
