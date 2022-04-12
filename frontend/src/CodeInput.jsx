@@ -25,3 +25,4 @@ export default function CodeInput({ onResult }) {
       <h1 className="text-2xl font-bold">🛡️ CodePatrol – Submit Code</h1>
       <input
         type="text"
+        placeholder="Your username"
