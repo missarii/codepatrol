@@ -30,3 +30,4 @@ export default function CodeInput({ onResult }) {
         value={username}
         onChange={(e) => setUsername(e.target.value)}
       />
+      <CodeMirror
