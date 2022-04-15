@@ -36,3 +36,4 @@ export default function CodeInput({ onResult }) {
         extensions={[javascript()]}
         onChange={(val) => setCode(val)}
       />
+      <button
