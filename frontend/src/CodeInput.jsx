@@ -32,3 +32,4 @@ export default function CodeInput({ onResult }) {
       />
       <CodeMirror
         value={code}
+        height="300px"
