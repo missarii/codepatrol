@@ -35,3 +35,4 @@ export default function CodeInput({ onResult }) {
         height="300px"
         extensions={[javascript()]}
         onChange={(val) => setCode(val)}
+      />
