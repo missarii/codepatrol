@@ -34,3 +34,4 @@ export default function CodeInput({ onResult }) {
         value={code}
         height="300px"
         extensions={[javascript()]}
+        onChange={(val) => setCode(val)}
