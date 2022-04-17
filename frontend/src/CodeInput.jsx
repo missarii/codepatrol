@@ -37,3 +37,4 @@ export default function CodeInput({ onResult }) {
         onChange={(val) => setCode(val)}
       />
       <button
+        onClick={handleSubmit}
