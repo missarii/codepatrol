@@ -38,3 +38,4 @@ export default function CodeInput({ onResult }) {
       />
       <button
         onClick={handleSubmit}
+        disabled={loading}
