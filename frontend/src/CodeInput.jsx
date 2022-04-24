@@ -43,3 +43,4 @@ export default function CodeInput({ onResult }) {
       >
         {loading ? "Checking..." : "Check Plagiarism"}
       </button>
+    </div>
