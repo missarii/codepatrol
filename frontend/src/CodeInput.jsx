@@ -45,3 +45,4 @@ export default function CodeInput({ onResult }) {
       </button>
     </div>
   );
+}
