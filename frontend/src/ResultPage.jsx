@@ -6,3 +6,5 @@ export default function ResultPage({ result, onBack }) {
       <h2 className="text-2xl font-semibold">🧠 Results</h2>
       <p className="text-lg">
         🔍 <span className="font-medium">Similarity Score:</span> {result.score}%
+      </p>
+      {result.match && (
