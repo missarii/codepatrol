@@ -8,3 +8,5 @@ export default function ResultPage({ result, onBack }) {
         🔍 <span className="font-medium">Similarity Score:</span> {result.score}%
       </p>
       {result.match && (
+        <p className="text-lg text-gray-700">
+          🧑 Match Found With: <span className="font-bold">{result.match}</span>
