@@ -11,3 +11,4 @@ export default function ResultPage({ result, onBack }) {
         <p className="text-lg text-gray-700">
           🧑 Match Found With: <span className="font-bold">{result.match}</span>
         </p>
+      )}
