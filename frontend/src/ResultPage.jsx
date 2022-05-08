@@ -13,3 +13,4 @@ export default function ResultPage({ result, onBack }) {
         </p>
       )}
       {!result.match && <p className="text-gray-500">✅ No matching submission found.</p>}
+      <button
