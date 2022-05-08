@@ -12,3 +12,4 @@ export default function ResultPage({ result, onBack }) {
           🧑 Match Found With: <span className="font-bold">{result.match}</span>
         </p>
       )}
+      {!result.match && <p className="text-gray-500">✅ No matching submission found.</p>}
