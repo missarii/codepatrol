@@ -21,3 +21,4 @@ export default function ResultPage({ result, onBack }) {
       </button>
     </div>
   );
+}
