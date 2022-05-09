@@ -20,3 +20,4 @@ export default function ResultPage({ result, onBack }) {
         ← Submit Another
       </button>
     </div>
+  );
