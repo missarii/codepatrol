@@ -15,3 +15,4 @@ export default function ResultPage({ result, onBack }) {
       {!result.match && <p className="text-gray-500">✅ No matching submission found.</p>}
       <button
         onClick={onBack}
+        className="mt-4 bg-gray-700 text-white px-4 py-2 rounded hover:bg-gray-800"
